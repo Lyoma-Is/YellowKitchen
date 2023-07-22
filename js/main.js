@@ -5,15 +5,6 @@ $('.foods').slick({
 });
 
 
-
-const menuBtn = document.querySelector('.menu__btn');
-const menuNav = document.querySelector('.navbar-menu');
-
-menuBtn.addEventListener('click', ()=>{
-    menuNav.classList.toggle('menu--open');
-});
-
-
 const gap1 = 16;
 
 const carousel1 = document.getElementById("carousel1"),

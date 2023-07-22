@@ -64,7 +64,7 @@ header .header-top .login a, header .header-top .basket a {
   line-height: 20px;
   letter-spacing: 0.5px;
 }
-header .header-top .menu__btn {
+header .header-top .btn-primary {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
@@ -77,33 +77,23 @@ header .header-top .menu__btn {
   background-color: #fff;
   cursor: pointer;
   transition: tranform 0.5s, opacity 0.5s;
+  box-shadow: none;
 }
-header .header-top .menu__btn span {
+header .header-top .btn-primary span {
   display: block;
   height: 3px;
   width: 24px;
   background-color: #9093A6;
 }
-header .header-top .navbar-menu.menu--open {
-  display: block;
-  position: absolute;
-  top: 79px;
-  right: 0px;
-  z-index: 1;
-  transition: all 0.5 ease;
-  border: none;
-}
 header .header-top .navbar-menu {
-  display: none;
+  display: block;
   width: 100%;
   height: 741px;
   color: #FFF;
   flex-direction: column;
   position: absolute;
-  top: 100%;
   right: 0;
   border: none;
-  z-index: -1;
   transition: all 0.5 ease;
 }
 header .header-top .navbar-menu .call {
@@ -135,18 +125,11 @@ header .header-top .navbar-menu .call p {
   line-height: 16px;
   padding-left: 31px;
 }
-header .header-top .navbar-menu .nav-menu__item {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  width: 100%;
-  padding: 0 15px;
-}
-header .header-top .navbar-menu .nav-menu__item li {
+header .header-top .navbar-menu li {
   padding: 20px;
   border-bottom: 1px solid #F2F4FA;
 }
-header .header-top .navbar-menu .nav-menu__item .language {
+header .header-top .navbar-menu .language {
   border: 0;
   outline: 0;
   background-color: transparent;
